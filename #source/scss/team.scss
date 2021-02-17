@@ -59,16 +59,16 @@
 		height: 30px;
 		&:first-child {
 			left: 125px;
-			background: url('/img/icon/arrow_prev_black.png');
+			background: url('img/icon/arrow_prev_black.png');
 			&:hover {
-				background: url('/img/icon/arrow_prev_white.png');
+				background: url('img/icon/arrow_prev_white.png');
 			}
 		}
 		&:last-child {
 			right: 125px;
-			background: url('/img/icon/arrow_next_black.png');
+			background: url('img/icon/arrow_next_black.png');
 			&:hover {
-				background: url('/img/icon/arrow_next_white.png');
+				background: url('img/icon/arrow_next_white.png');
 			}
 		}
 		&:hover {

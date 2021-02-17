@@ -2,7 +2,7 @@
 	overflow: hidden;
 	position: relative;
 	padding: 60px 0 71px 0;
-	background-image: url('../../img/bg/calculation_bg_2.png');
+	background-image: url('img/bg/calculation_bg_2.png');
 	background-repeat: no-repeat;
 	background-position: 115px 83px;
 	background-color: #fbfbfb;
@@ -10,7 +10,7 @@
 		position: absolute;
 		top: 100px;
 		right: 15px;
-		background: url('/img/bg/calculation_bg.png') no-repeat;
+		background: url('img/bg/calculation_bg.png') no-repeat;
 		width: 345px;
 		height: 350px;
 		img {
@@ -103,14 +103,14 @@
 }
 @media (max-width: 576px) {
 	.calculation {
-		background-image: url('/img/bg/calculation_bg_2_small.png');
+		background-image: url('img/bg/calculation_bg_2_small.png');
 		background-position: 0 230px;
 		&__image {
 			top: 200px;
 			right: -33px;
 			width: 143px;
 			height: 145px;
-			background: url('/img/bg/calculation_bg_small.png');
+			background: url('img/bg/calculation_bg_small.png');
 			img {
 				top: 0;
 				right: -5px;

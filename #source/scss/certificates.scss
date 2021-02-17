@@ -45,13 +45,13 @@
 		&:first-child {
 			left: 0;
 			&::before {
-				background: url('/img/icon/arrow_prev_white.png');
+				background: url('img/icon/arrow_prev_white.png');
 			}
 		}
 		&:last-child {
 			right: 0;
 			&::before {
-				background: url('/img/icon/arrow_next_white.png');
+				background: url('img/icon/arrow_next_white.png');
 			}
 		}
 	}
