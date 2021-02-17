@@ -102,16 +102,16 @@
 		margin: 38px auto 0 auto;
 	}
 	&_main {
-		background: url('img/bg/header_main_bg.png') no-repeat top;
+		background: url('../img/bg/header_main_bg.png') no-repeat top;
 		background-size: cover;
 	}
 	&_card {
 		padding: 0 0 205px 0;
-		background: url('img/bg/header_card_bg.png') no-repeat top;
+		background: url('../img/bg/header_card_bg.png') no-repeat top;
 		background-size: cover;
 	}
 	&_professional-cleaning {
-		background: url('img/bg/header_professional_cleaning_bg.png') no-repeat top;
+		background: url('../img/bg/header_professional_cleaning_bg.png') no-repeat top;
 		background-size: cover;
 	}
 	.reasons__body {
@@ -282,7 +282,7 @@
 				display: none;
 			}
 			&_main {
-				background: url('img/bg/header_main_bg_small.png') no-repeat top;
+				background: url('../img/bg/header_main_bg_small.png') no-repeat top;
 			}
 			&_card {
 				padding: 0 0 132px 0;

@@ -33,7 +33,7 @@
 	&__rating {
 		width: 75px;
 		height: 15px;
-		background: url('img/icon/reviews_rating.png');
+		background: url('../img/icon/reviews_rating.png');
 		position: absolute;
 		top: 24px;
 		left: 176px;
@@ -45,7 +45,7 @@
 		width: 73px;
 		height: 73px;
 		border-top-right-radius: 10px;
-		background: url('img/bg/reviews_icon_bg.png') -1px -38px;
+		background: url('../img/bg/reviews_icon_bg.png') -1px -38px;
 		img {
 			position: absolute;
 			top: 19px;
@@ -110,16 +110,16 @@
 		height: 30px;
 		&:first-child {
 			left: -216px;
-			background: url('img/icon/arrow_prev_black.png');
+			background: url('../img/icon/arrow_prev_black.png');
 			&:hover {
-				background: url('img/icon/arrow_prev_blue.png');
+				background: url('../img/icon/arrow_prev_blue.png');
 			}
 		}
 		&:last-child {
 			right: -216px;
-			background: url('img/icon/arrow_next_black.png');
+			background: url('../img/icon/arrow_next_black.png');
 			&:hover {
-				background: url('img/icon/arrow_next_blue.png');
+				background: url('../img/icon/arrow_next_blue.png');
 			}
 		}
 	}
@@ -159,7 +159,7 @@
 		&__icon {
 			width: 49px;
 			height: 49px;
-			background: url('img/bg/reviews_icon_bg_small.png') 0 -23px;
+			background: url('../img/bg/reviews_icon_bg_small.png') 0 -23px;
 			img {
 				top: 13px;
 				right: 14px;
