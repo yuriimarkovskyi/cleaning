@@ -1,0 +1,287 @@
+.gift {
+	margin: 0 0 105px 0;
+	&__title {
+		margin: 0 auto 64px auto;
+		max-width: 814px;
+	}
+	&__selection {
+		margin: 0 auto 50px auto;
+		max-width: 1045px;
+		display: flex;
+		justify-content: space-between;
+	}
+	&__callback {}
+}
+.selection-gift {
+	&__element {
+		width: 251px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		&--first {
+			.selection-gift__image {
+				img {
+					left: -40px;
+				}
+			}
+		}
+		&--second {
+			.selection-gift__image {
+				img {
+					top: 35px;
+					left: 15px;
+				}
+			}
+		}
+		&--third {
+			.selection-gift__image {
+				img {
+					top: 22px;
+					left: 5px;
+				}
+			}
+		}
+	}
+	&__image {
+		position: relative;
+		margin: 0 0 30px 0;
+		width: 251px;
+		height: 251px;
+		border-radius: 100%;
+		border: 5px solid #1e90c8;
+		img {
+			position: absolute;
+		}
+	}
+	&__text {
+		margin: 0 0 45px 0;
+		flex: 1 0 auto;
+		font-size: 22px;
+		font-weight: bold;
+		text-align: center;
+		line-height: 40px;
+		color: #1e90c8;
+	}
+	&__radio-button {
+		flex: 0 0 auto;
+		input[type=radio] {
+			display: none;
+		}
+		input[type=radio]:checked + label {
+			background: #e4b531;
+			box-shadow: 0px 8px 6px 0px rgba(228, 181, 49, 0.75);
+		}
+		label {
+			@include flex_c;
+			border-radius: 22.5px;
+			width: 100%;
+			height: 100%;
+		}
+	}
+	&__dots {
+		margin: 0 0 20px 0;
+	}
+	.button {
+		&--color {
+			&_green {
+				visibility: hidden;
+			}
+		}
+	}
+}
+.callback-gift {
+	&__image {
+		img {
+			top: 37px;
+			left: 65px;
+			width: 189px;
+			height: 226px;
+		}
+	}
+}
+@media (min-width: 993px) {
+	.selection-gift {
+		&__element {
+			&:hover {
+				.selection-gift__image {
+					border: 5px solid #94cc2f;
+					background: #94cc2f;
+				}
+				.selection-gift__text {
+					color: #94cc2f;
+				}
+				.button {
+					&--color {
+						&_green {
+							visibility: visible;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@media (max-width: 992px) {
+	.gift {
+		margin: 0 0 50px 0;
+		&__selection {
+			flex-direction: column;
+			align-items: center;
+		}
+	}
+	.selection-gift {
+		&__element {
+			&:not(:last-child) {
+				margin: 0 0 30px 0;
+			}
+		}
+		&__image {
+			border: 5px solid #94cc2f;
+			background: #94cc2f;
+		}
+		&__text {
+			color: #94cc2f;
+		}
+		.button {
+			&--color {
+				&_green {
+					visibility: visible;
+				}
+			}
+		}
+	}
+}
+@media (max-width: 768px) {
+	.gift {
+		margin: 0;
+		&__title {
+			margin: 0 auto 35px auto;
+		}
+	}
+	.selection-gift {
+		&__element {
+			padding: 0 0 21px 0;
+			width: 500px;
+			&--first {
+				.selection-gift__image {
+					img {
+						left: -40px;
+					}
+				}
+			}
+			&--second {
+				.selection-gift__image {
+					img {
+						top: 35px;
+						left: 15px;
+					}
+				}
+			}
+			&--third {
+				.selection-gift__image {
+					img {
+						top: 22px;
+						left: 5px;
+					}
+				}
+			}
+		}
+		&__image {
+			position: relative;
+			margin: 0 auto 25px auto;
+			width: 251px;
+			height: 251px;
+			border-radius: 100%;
+			background-color: #94cc2f;
+			img {
+				position: absolute;
+			}
+		}
+		&__text {
+			margin: 0 auto 30px auto;
+			width: 310px;
+			font-size: 22px;
+			font-weight: bold;
+			text-align: center;
+			line-height: 23px;
+			color: #94cc2f;
+		}
+		&__radio-button {
+			margin: 0 auto;
+			input[type=radio] {
+				display: none;
+			}
+			input[type=radio]:checked + label {
+				background: #e4b531;
+				box-shadow: 0px 8px 6px 0px rgba(228, 181, 49, 0.75);
+			}
+			label {
+				@include flex_c;
+				border-radius: 22.5px;
+				width: 100%;
+				height: 100%;
+			}
+		}
+	}
+	.selection-gift.owl-carousel {
+		margin: 0 auto;
+		width: 500px;
+	}
+	.selection-gift.owl-carousel.owl-loaded {
+		display: block;
+	}
+}
+@media (max-width: 576px) {
+	.gift {
+		&__title {
+			width: 260px;
+		}
+	}
+	.selection-gift {
+		&__element {
+			width: 290px;
+			&--first {
+				.selection-gift__image {
+					img {
+						top: 30px;
+						left: 10px;
+						width: 196px;
+						height: 122px;
+					}
+				}
+			}
+			&--second {
+				.selection-gift__image {
+					img {
+						top: 35px;
+						left: 15px;
+						width: 196px;
+						height: 149px;
+					}
+				}
+			}
+			&--third {
+				.selection-gift__image {
+					img {
+						top: 22px;
+						left: 5px;
+						width: 196px;
+						height: 166px;
+					}
+				}
+			}
+		}
+		&__image {
+			width: 200px;
+			height: 200px;
+		}
+		&__text {
+			width: 155px;
+			font-size: 17px;
+		}
+	}
+	.selection-gift.owl-carousel {
+		margin: 0 auto;
+		width: 290px;
+	}
+}

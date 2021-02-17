@@ -1,0 +1,41 @@
+.callback-order-service {
+	&__image {
+		img {
+			bottom: 0;
+			left: -20px;
+			width: 397px;
+			height: 271px;
+			&:nth-child(2) {
+				display: none;
+			}
+		}
+	}
+}
+@media (max-width: 768px) {
+	.callback-order-service {
+		&__image {
+			img {
+				bottom: -41px;
+				transform: scale(0.7);
+			}
+		}
+	}
+}
+@media (max-width: 576px) {
+	.callback-order-service {
+		&__image {
+			overflow: visible !important;
+			img {
+				&:first-child {
+					display: none;
+				}
+				&:nth-child(2) {
+					display: block;
+					transform: scale(1.5);
+					right: 19px;
+					top: 3px;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,36 @@
+.page-description {
+	padding: 46px 0 106px 0;
+	&__row {
+		@include flex_col_c;
+	}
+	&__title {
+		margin: 0 0 29px 0;
+		font-size: 22px;
+		font-weight: bold;
+		text-align: center;
+		color: #000000;
+	}
+	&__description {
+		margin: 0 0 25px 0;
+		line-height: 21px;
+	}
+	&__link {
+		font-size: 17px;
+		font-weight: 600;
+		text-decoration: underline;
+		-webkit-text-decoration-skip-ink: none;
+		text-decoration-skip-ink: none;
+		color: #94cc2f;
+	}
+}
+@media(max-width: 992px) {
+	.page-description {
+		padding: 18px 0 47px 0;
+		&__title {
+			font-size: 15px;
+		}
+		&__link {
+			font-size: 14px;
+		}
+	}
+}

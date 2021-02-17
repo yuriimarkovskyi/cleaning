@@ -1,0 +1,9 @@
+.price__image {
+  width: 575px;
+  height: 377px;
+  border-radius: 7px;
+}
+.price__image img {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,36 @@
+<section class="calculation">
+	<div class="calculation__image">
+		<img src="/img/content/cost-calculation_girl.png" alt="">
+		<img src="/img/content/cost-calculation_girl_small.png" alt="">
+	</div>
+	<div class="calculation__title block-title"><span>Заполните поля ниже,</span> чтобы рассчитать стоимость уборки для вашего объекта</div>
+	<div class="calculation__description block-description">Наш сотрудник перезвонит вам сразу же, как получит сообщение и озвучит рассчеты</div>
+	<form action="#" method="POST" class="calculation__form cost-calculation">
+		<div class="cost-calculation__row">
+			<div class="cost-calculation__input">
+				<input name="name" autocomplete="on" type="text" placeholder="Как вас зовут?" class="input" required>
+			</div>
+			<div class="cost-calculation__input">
+				<input name="phone" autocomplete="on" type="tel" placeholder="Телефон для связи" class="input input-phone" required>
+			</div>
+			<div class="cost-calculation__input">
+				<select name="choice" placeholder="Выберите услугу" class="input js-example-basic-single" required>
+					<option></option>
+					<option value="value-1">Профессиональная уборка</option>
+					<option value="value-2">Специализированные работы</option>
+					<option value="value-3">Эксплуатация</option>
+				</select>
+			</div>
+			<div class="cost-calculation__input">
+				<input name="email" autocomplete="on" type="email" placeholder="E-mail (куда отправить КП)" class="input input-email" required>
+			</div>
+		</div>
+		<div class="cost-calculation__row">
+			<button type="submit" class="cost-calculation__button button button--color_green button--text-color_white">Рассчитать</button>
+		</div>
+		<div class="cost-calculation__checkbox checkbox">
+			<input type="checkbox" id="cost-calculation-data-confirmation" name="data-confirmation" value="confirmed" required>
+			<label for="cost-calculation-data-confirmation">Ваши данные в безопасности</label>
+		</div>
+	</form>
+</section>

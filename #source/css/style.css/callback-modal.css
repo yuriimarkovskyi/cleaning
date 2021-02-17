@@ -1,0 +1,8 @@
+.callback-modal {
+  background: transparent;
+}
+.callback-modal__body {
+  width: 666px;
+  border: 3px solid #94cc2f;
+  border-radius: 7px;
+}

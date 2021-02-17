@@ -1,0 +1,14 @@
+.footer__info {
+  width: 642px;
+  height: 407px;
+  opacity: 0.87;
+  background-color: #000000;
+}
+.footer__title {
+  font-family: Proxima Nova Bold;
+  font-size: 22px;
+  color: #ffffff;
+}
+.footer__title span {
+  color: #94cc2f;
+}
