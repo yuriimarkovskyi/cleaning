@@ -56,7 +56,7 @@
 			transform: translateY(-50%);
 			width: 33px;
 			height: 33px;
-			border-radius: 100%;
+			border-radius: 50%;
 			box-shadow: 0px 3px 7px 0px rgba(30,143,200,0.35);
 		}
 	}
@@ -139,7 +139,7 @@
 		transform: translateX(-50%);
 		width: 90px;
 		height: 90px;
-		border-radius: 100%;
+		border-radius: 50%;
 		background: #ffffff;
 		box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.35);
 		img {
@@ -172,7 +172,7 @@
 	&__image {
 		@include flex_c;
 		margin: 0 auto 25px auto;
-		border-radius: 100%;
+		border-radius: 50%;
 		width: 90px;
 		height: 90px;
 		background-color: #ffffff;
